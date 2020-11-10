@@ -246,8 +246,8 @@ fieldset {
   .services {
      margin-bottom: 40px;
   }
-  .fixed-services {
-     display: flex;
+  .services-content {
+      display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
   }
@@ -298,10 +298,17 @@ fieldset {
 .advantages {
    margin-bottom: 75px;
 }
-.advantages-fixed {
+.ul-advantagest {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+}
+.ul-advantages li {
+   display: inline-block;
+   margin-right: 18px;
+}
+.ul-advantages li:nth-child(4n) {
+   margin-right: 0;
 }
 .advantages-box {
    width: 275px;
@@ -315,10 +322,13 @@ fieldset {
    margin-bottom: 25px;
 }
 /*--------------------------------------------------room-------------------------------------*/
-.room-fixed {
+.room-content {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+}
+.list-room li {
+   display: inline-block;
 }
 .room-box {
    border-radius: 10px;
@@ -351,8 +361,8 @@ fieldset {
 }
 .room-box-spec {
    width: 375px;
-   height: 450px;
-   padding-top: 30%;
+   height: 428px;
+   padding-top: 90%;
    background: url(../img/41.jpg);
    background-repeat: no-repeat;
    background-size: cover;
