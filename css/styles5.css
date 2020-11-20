@@ -120,6 +120,14 @@ fieldset {
       font-size: 22px;
       color: #666666;
   }
+  .header-rightbox {
+     height: 16px;
+     padding-left: 25px;
+     background: url(../img/la-lk.png) no-repeat ;
+     background-position: left center;
+     font-weight: 500;
+     color:  #cc9933 ;
+  }
   .nav-menu {
       position: relative;
       padding: 25px 20px;
@@ -184,8 +192,7 @@ fieldset {
      color:#fff;
      background-color: #cc9933;
   }
-  .btn-leftbox,
-  .btn-lucks-room {
+  .btn-leftbox {
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -199,7 +206,12 @@ fieldset {
      color:  #cc9933;
   }
   .lucks-room{
+     width: 37vw;
+     height: 535px;
      position: relative;
+     background: url("../img/22.jpg") no-repeat ;
+     background-size: cover;
+     border-radius: 10px;
   }
   .lucks-room-text {
      position: absolute;
@@ -216,12 +228,13 @@ fieldset {
       font-weight: bold;
   }
   .lucks-room-price {
-      width: 100%;
+      display: inline-block;
       font-size: 35px;
       line-height: 32px;
       color: #999999;
   }
   .detail {
+      display: inline-block;
       margin-left: 40px;
       font-size: 16px;
       line-height: 32px;
@@ -260,27 +273,18 @@ fieldset {
      border-radius: 10px;
      background-color: #fff;
   }
-  .box1,
-  .box2 {
-     height: 165px;
-     background: url(../img/15.jpg);
-  }
-  .box3 {
-   height: 165px;
-   background: url(../img/12.jpg);
-  }
-  .box4 {
-   height: 165px;
-   background: url(../img/18.jpg);
-  }
-  .mini-services-box {
+   .mini-services-box {
      display: flex;
      justify-content: space-between;
      margin-top: 40px;
      margin-left: 40px;
   }
   .services-link {
-      color: #cc9933;
+     padding-right: 25px;
+     background: url("../img/rightArrow.png") no-repeat;
+     background-position: center right ;
+     font-size: 22px; 
+     color: #cc9933;
   }
   .detail-arrow {
      width: 11px;
@@ -313,14 +317,52 @@ fieldset {
 .advantages-box {
    width: 275px;
    height: 275px;
-   background-color: #fff;
    border-radius: 10px;
    margin-bottom: 25px;
-   padding: 45px;
+   padding: 125px 45px 0 45px;
 }
-.advantages-img {
-   margin-bottom: 25px;
+
+.a-box1 {   
+   background: url("../img/bathtub.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
 }
+.a-box2 {   
+   background: url("../img/hanger.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box3 {   
+   background: url("../img/heating.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box4 {   
+   background: url("../img/hotel-key.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box5 {   
+   background: url("../img/parking.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box6 {   
+   background: url("../img/reception.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box7 {   
+   background: url("../img/security-box.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+.a-box8 {   
+   background: url("../img/swimming-pool.png") no-repeat;
+   background-position: 45px 45px;
+   background-color: #fff; 
+}
+
 /*--------------------------------------------------room-------------------------------------*/
 .room-content {
    display: flex;
